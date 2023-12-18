@@ -1,0 +1,68 @@
+titre: "Carrot Cake : la vraie recette"
+duree:
+    - nom: préparation
+      duree: 15
+      unite: mn
+    - nom: cuisson
+      duree: 30
+      unite: mn
+indications:
+    - nom: niveau
+      valeur: très facile
+    - nom: coût
+      valeur: bon marché
+    - nom: personnes
+      valeur: 8
+ingredients:
+    - nom: huile
+      qte: 180
+      unite: grammes
+    - nom: sucre
+      qte: 250
+      unite: grammes
+    - nom: farine
+      qte: 25
+      unite: grammes
+    - nom: vanille
+      qte: 2
+      unite: cuillères à café
+    - nom: levure chimique
+      qte: 1
+      unite: sachet
+    - nom: carottes râpées
+      qte: 3 à 4
+      unite: carottes
+    - nom: oeufs
+      qte: 4
+      unite:
+    - nom: muscade
+      qte: 1
+      unite: cuillère à café
+    - nom: cannelle
+      qte: 2
+      unite: cuillère à café
+    - nom: noix concassées
+      qte: 120
+      unite: grammes
+ustensiles:
+    - nom: grille à pâtisserie
+      qte: 1
+    - nom: four
+      qte: 1
+    - nom: fouet électrique
+      qte: 1
+    - nom: cuillère en bois
+      qte: 1
+    - nom: râpe
+      qte: 1
+    - nom: fourchette
+      qte: 1
+    - nom: balance
+      qte: 1
+etapes:
+    - Mélanger au fouet électrique les 4 œufs et le sucre.
+    - Incorporer l'extrait de vanille, la muscade, la cannelle et l'huile, toujours à l'aide du fouet électrique.
+    - Ajouter la farine et la levure. Commencer à mélanger avec le fouet éteint (pour éviter les projections), puis allumer le fouet en augmentant de puissance progressivement jusqu'à obtention d'une pâte lisse.
+    - Ajouter les carottes râpées et les noix concassées. Mélanger au fouet doucement jusqu'à ce que la pâte soit homogène.
+    - Huiler et fariner légèrement le moule (voire les 2 moules car la dose le permet) et verser la préparation.
+    - Enfourner 30 à 40 minutes selon votre four à 175° (th 5/6). Piquer pour vérifier que le gâteau soit cuit.
