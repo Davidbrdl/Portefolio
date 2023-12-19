@@ -1,25 +1,27 @@
 title: Expériences
 
-experience1: AGENT DE CONDITIONNEMENT (SAMSIC INTÉRIM)
-experience1-2: Usine "Pétrole et Synthèse" - Saint-Manvieu-Norrey (14)
-experience1-3: Février - Mars ; Mai - Juin 2023
-list-activités: 
+exp1: AGENT DE CONDITIONNEMENT (SAMSIC INTÉRIM)
+exp1-2: Usine "Pétrole et Synthèse" - Saint-Manvieu-Norrey (14)
+exp1-3: Février - Mars ; Mai - Juin 2023
+list-act: 
     - act: Approvisionnement en bidons des lignes de conditionnement
     - act: Métrologie & Tarage
     - act: Contrôle qualité
     - act: Mise en carton
     - act: Vérification du bon conditionnement et du marquage
 
-experience2: Usine "UNITHER" - Coutances (50)
-experience2-2: Périodes de Mars à Octobre 2022
-activités: 
+exp2: Usine "UNITHER" - Coutances (50)
+exp2-2: Périodes de Mars à Octobre 2022
+list-act2: 
     - act: Approvisionnement d'articles pharmaceutiques des lignes de conditionnement 
     - act: Mise en carton 
     - act: Vérification du bon conditionnement et du marquage
 
-experience3: La Poste - Canisy (50)
-experience3-2: Décembre 2021
-experience3-3: AGENT DE DISTRIBUTION / FACTEUR (R.A.S INTÉRIM)
-activités : 
+exp3: La Poste - Canisy (50)
+exp3-2: Décembre 2021
+exp3-3: AGENT DE DISTRIBUTION / FACTEUR (R.A.S INTÉRIM)
+list-act3: 
     - act: Trie du courrier au centre de tri
     - act: Distribution sur secteur d'affectation
+
+liencv :  → Lien vers mon CV 

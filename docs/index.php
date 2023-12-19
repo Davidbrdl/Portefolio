@@ -9,7 +9,6 @@ require_once("yaml/yaml.php")
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>David Bourdel</title>
 </head>
 
@@ -18,7 +17,7 @@ require_once("yaml/yaml.php")
     </div>
     <header class="main-head">
         <nav>
-            <img src="images/fleshandblood.png" alt="logo" width="20%" class="logoflesh">
+            <img src="assets/images/fleshandblood.png" alt="logo" width="20%" class="logoflesh">
             <ul>
                 <li><a href="#Accueil">Accueil</a></li>
                 <li><a href="#Apropos">À Propos</a></li>
@@ -49,27 +48,9 @@ require("assets/php/competence.php");
 require("assets/php/experience.php");
 ?>
 
-        <section id="Formations">
-            <h1>Formations</h1>
-            <hr width="50" color="#667eea" size="5">
-            <div class="container2">
-            <ul>
-                <li>BAC Générale : Lycée Polyvalent Curie Corot, Saint-Lô</li>
-                <li>MOOC de l'ANSSI ; <a href="https://drive.google.com/file/d/1EZECozwS9vYBDL_AAcBEWKm1G92ep3vU/view?usp=drive_link">Lien Attestation de suivi</a></li>
-                <li>Cisco : Introduction à la cybersécurité</li>
-                <li>BTS SIO en alternance (du 21/08/2023 au 08/2025, Caensup Sainte-Ursule)</li>
-                <li>Udemy : BootCamp Web Developpement (25%)</li>
-            </ul>
-            <div class="formation">
-                <img src="assets/images/1200px-ANSSI_Logo.svg.png" alt="anssi" width="15%">
-                <img src="assets/images/800px-Cisco_logo_blue_2016.svg.png" alt="cisco" width="13%">
-                <img src="assets/images/logo-CaenSup-noir.svg" alt="caensup" width="23%">
-                <img src="assets/images/Udemy_logo.svg.png" alt="Udemy" width="20%">
-            </div>
-            </div>
-            <hr width="50" color="#667eea" size="5">
-            <a href="#Contact">Page suivante</a>
-        </section>
+<?php
+require("assets/php/formations.php");
+?>
         <!-- RENDRE LE FORMULAIRE DE CONTACT FONCTIONNEL; AVEC ENVOIS DE
         MAIL A MON ADDR EMAIL DANS LA BASE DE DONNEES-->
         <section id="Contact">
@@ -110,13 +91,12 @@ require("assets/php/experience.php");
                 </form>
             </div>
             <hr width="50" color="#667eea" size="5">
-            <a href="#Accueil">Retourner à l'Accueil <img src="./images/house-solid.svg"></a>
+            <a href="#Accueil">Retourner à l'Accueil <img src="assets/images/house-solid.svg"></a>
         </section>
     </div>
     </main>
 
     <footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </footer>
 
 </body>
