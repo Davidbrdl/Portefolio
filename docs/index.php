@@ -8,6 +8,7 @@ require_once("yaml/yaml.php")
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>David Bourdel</title>
 </head>
@@ -51,48 +52,10 @@ require("assets/php/experience.php");
 <?php
 require("assets/php/formations.php");
 ?>
-        <!-- RENDRE LE FORMULAIRE DE CONTACT FONCTIONNEL; AVEC ENVOIS DE
-        MAIL A MON ADDR EMAIL DANS LA BASE DE DONNEES-->
-        <section id="Contact">
 
-            <div class="container9">
-                <h1 class="title title-1">Contact</h1>
-
-                <form class="form" action="traitement.php" method="post"> 
-                    <div class="form__group">
-                        <input type="text" class="form__input" id="nom" placeholder="Votre Nom" required name="name">
-                        <label for="nom" class="form__label">Votre Nom</label>
-                    </div>
-
-                    <div class="form__group">
-                        <input type="email" class="form__input" id="email" placeholder="Votre Email" required name="email">
-                        <label for="email" class="form__label">Votre Email</label>
-                    </div>
-
-                    <div class="form__message">
-                        <label for="message" class="form__message-label">
-                            Contenu du message :
-                        </label>
-
-                        <textarea name="msg" id="message" cols="30" rows="10" class="form__input message__input"
-
-                        <textarea name="message" id="message" cols="30" rows="10" class="form__input message__input"
-
-                            required></textarea>
-                    </div>
-
-                    <div class="submit">
-
-                        <input name="submit_btn" type="submit" id="submit-btn" value="Envoyer" />
-
-                        <input type="submit" value="Envoyer">
-
-                    </div>
-                </form>
-            </div>
-            <hr width="50" color="#667eea" size="5">
-            <a href="#Accueil">Retourner à l'Accueil <img src="assets/images/house-solid.svg"></a>
-        </section>
+<?php
+require("assets/php/contact.php");
+?>
     </div>
     </main>
 

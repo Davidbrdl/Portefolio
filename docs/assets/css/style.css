@@ -1,5 +1,3 @@
-/*@import "reset.css";*/
-/*@import "./responsive.css";*/
 
 body {
     font-family: sans-serif;
@@ -33,6 +31,7 @@ a {
 /* HEADER */
 
 .main-head {
+    margin-top: 5px;
     position: fixed;
     width: 98.5%;
     z-index: 1000;
@@ -76,8 +75,8 @@ nav ul {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
-    background-color: rgba(0, 0, 0, 0.36); /* Couleur blanche avec une opacité de 0.8 */
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.36); 
     top: 0;
     left: 0;
     display: flex;
@@ -105,8 +104,8 @@ nav ul {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
-    background-color: rgba(0, 0, 0, 0.36); /* Couleur blanche avec une opacité de 0.8 */
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.36); 
     top: 0;
     left: 0;
     display: flex;
@@ -133,8 +132,8 @@ nav ul {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
-    background-color: rgba(0, 0, 0, 0.36); /* Couleur blanche avec une opacité de 0.8 */
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.36); 
     top: 0;
     left: 0;
     display: flex;
@@ -185,6 +184,19 @@ nav ul {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     animation: jsSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
 }
+#php{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    animation: phpSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+#ang{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    animation: angSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+#de{
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    animation: deSlide 1.5s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+}
+
 @keyframes htmlSlide{
     0% {width: 0;}
     100%{width: 70%;}
@@ -195,10 +207,21 @@ nav ul {
 }
 @keyframes jsSlide{
     0% {width: 0;}
+    100%{width: 10%;}
+}
+@keyframes phpSlide{
+    0% {width: 0;}
     100%{width: 20%;}
 }
+@keyframes angSlide{
+    0% {width: 0;}
+    100%{width: 70%;}
+}@keyframes deSlide{
+    0% {width: 0;}
+    100%{width: 40%;}
+}
 #Expériences {
-    min-height: 90vh;
+    min-height: 140vh;
     background-size: cover;
     color: whitesmoke;
     display: flex;
@@ -206,10 +229,8 @@ nav ul {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
-    background-color: rgba(0, 0, 0, 0.36); /* Couleur blanche avec une opacité de 0.8 */
-    top: 0;
-    left: 0;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.36); 
 }
 .container5{
     text-align: center;
@@ -235,7 +256,7 @@ nav ul {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
+    height: 100vh; 
     background-color: rgba(0, 0, 0, 0.36); 
     top: 0;
     left: 0;
@@ -270,8 +291,8 @@ nav ul {
     z-index: 1;
     color: #61677A;
     width: 100%;
-    height: 100vh; /* 100% de la hauteur de la vue (viewport height) */
-    background-color: rgba(0, 0, 0, 0.36); /* Couleur blanche avec une opacité de 0.8 */
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.36); 
     top: 0;
     left: 0;
     display: flex;
