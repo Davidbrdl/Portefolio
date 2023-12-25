@@ -8,7 +8,7 @@ $data = yaml_parse_file('assets/yaml/contact.yaml');
     <?php
     echo '<h1 class="title title-1">'.($data["title"]).'</h1>';?>
 
-    <form class="form" action="traitement.php" method="post"> 
+    <form class="form" action="email1.php" method="post"> 
         <div class="form__group">
             <input type="text" class="form__input" id="nom" placeholder="Votre Nom" required name="name">
             <?php
@@ -36,6 +36,5 @@ $data = yaml_parse_file('assets/yaml/contact.yaml');
         </div>
     </form>
 </div>
-<hr width="50" color="#667eea" size="5">
 <a href="#Accueil">Retourner à l'Accueil <img src="assets/images/house-solid.svg"></a>
 </section>
